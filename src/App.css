@@ -27,22 +27,18 @@
   transform: rotateX(210deg);
   perspective: 200px;
 
-  -webkit-mask-image: -webkit-gradient(
-    linear,
-    right top,
-    right bottom,
-    from(transparent),
-    color-stop(20%, transparent),
-    to(rgba(0, 0, 0, 0.3))
-  );
-  mask-image: -webkit-gradient(
-    linear,
-    right top,
-    right bottom,
-    from(transparent),
-    color-stop(20%, transparent),
-    to(rgba(0, 0, 0, 0.3))
-  );
+  -webkit-mask-image: -webkit-gradient(linear,
+      right top,
+      right bottom,
+      from(transparent),
+      color-stop(20%, transparent),
+      to(rgba(0, 0, 0, 0.3)));
+  mask-image: -webkit-gradient(linear,
+      right top,
+      right bottom,
+      from(transparent),
+      color-stop(20%, transparent),
+      to(rgba(0, 0, 0, 0.3)));
 }
 
 .App {
