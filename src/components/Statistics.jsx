@@ -6,7 +6,7 @@ const Statistics = ({ cryptos, lastTransactionDates, totalTransactions }) => {
 
   return (
     <div className="statistics">
-      <p>Last addition:</p>
+      <p>Last additions:</p>
       <ul>
         {cryptos.map((crypto, index) => (
           <li key={index}>
