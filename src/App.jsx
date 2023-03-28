@@ -44,11 +44,11 @@ const CryptoTransactionsApp = () => {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="header">
         <h1>CrypTracker</h1>
         <h1 className="refl">CrypTracker</h1>
       </header>
-      <main style={{ marginBottom: "16px" }}>
+      <main className="main">
         <CryptoList
           cryptos={cryptoTransactions}
           addTransaction={handleAddTransaction}
