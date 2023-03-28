@@ -1,10 +1,14 @@
 .App {
   text-align: center;
+  overflow-y: auto;
+  margin-bottom: 100px;
+  margin-top: 150px;
 }
 
-.App-header {
+.App-header,
+.header {
   background-color: rgb(73, 73, 73);
-  min-height: 10vh;
+  min-height: 9vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,6 +18,12 @@
   color: white;
   text-shadow: 2px 10px 5px rgba(0, 0, 0, 0.3),
     0px -4px 5px rgba(255, 255, 255, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  opacity: 80%
 }
 
 .refl {
@@ -39,11 +49,6 @@
       from(transparent),
       color-stop(20%, transparent),
       to(rgba(0, 0, 0, 0.3)));
-}
-
-.App {
-  max-height: 80vh;
-  overflow-y: auto;
 }
 
 .App-body {
@@ -98,6 +103,9 @@ footer {
   bottom: 0;
   align-items: center;
   width: 100%;
-  padding: 5px;
+  padding: 3px;
+  font-size: 0.7em;
+  border-top: 1px solid #fffef3;
+  background-color: #eee;
+  opacity: 80%
 }
-
