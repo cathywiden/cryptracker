@@ -44,7 +44,7 @@ const Crypto = ({ name, transactions, addTransaction, deleteTransaction }) => {
 
     // Check if date is not in the future
     if (inputDate > currentDate) {
-      alert("Please enter a date that is not in the future.");
+      alert("No time travel!");
       return;
     }
 
@@ -70,10 +70,7 @@ const Crypto = ({ name, transactions, addTransaction, deleteTransaction }) => {
             <span>
               Amount: {transaction.amount}, Date: {transaction.date}
             </span>
-            <button
-              onClick={() => handleDelete(index)}
-              style={{ marginLeft: "8px" }}
-            >
+            <button onClick={() => handleDelete(index)} className="delete-btn">
               Delete
             </button>
           </li>
@@ -86,16 +83,18 @@ const Crypto = ({ name, transactions, addTransaction, deleteTransaction }) => {
             type="text"
             name="amount"
             placeholder="Enter amount"
-            style={{ marginLeft: "4px", marginRight: "8px" }}
+            className="input-field"
           />
           <input
             type="text"
             name="date"
             placeholder="Enter date (dd/mm/yyyy)"
-            style={{ marginLeft: "4px", marginRight: "8px" }}
+            className="input-field"
           />
         </label>
-        <button type="submit">Add Transaction</button>
+        <button type="submit" className="add-btn">
+          Add Transaction
+        </button>
       </form>
     </div>
   );
