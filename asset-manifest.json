@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cryptracker/static/css/main.41ed4564.css",
-    "main.js": "/cryptracker/static/js/main.171f49bc.js",
+    "main.css": "/cryptracker/static/css/main.53b5c3a7.css",
+    "main.js": "/cryptracker/static/js/main.70b5f030.js",
     "static/js/787.7efd31bd.chunk.js": "/cryptracker/static/js/787.7efd31bd.chunk.js",
     "index.html": "/cryptracker/index.html",
-    "main.41ed4564.css.map": "/cryptracker/static/css/main.41ed4564.css.map",
-    "main.171f49bc.js.map": "/cryptracker/static/js/main.171f49bc.js.map",
+    "main.53b5c3a7.css.map": "/cryptracker/static/css/main.53b5c3a7.css.map",
+    "main.70b5f030.js.map": "/cryptracker/static/js/main.70b5f030.js.map",
     "787.7efd31bd.chunk.js.map": "/cryptracker/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41ed4564.css",
-    "static/js/main.171f49bc.js"
+    "static/css/main.53b5c3a7.css",
+    "static/js/main.70b5f030.js"
   ]
 }
